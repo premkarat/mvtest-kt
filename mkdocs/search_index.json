@@ -7,7 +7,7 @@
         }, 
         {
             "location": "/overview/", 
-            "text": "mvtest\n is based on \npytest\n and includes the following standard modules to help perform a full-fledged automated QA on MontaVista Linux distribution.\n\n\n\n\nparamiko\n - for running commands on remote host.\n\n\npexpect\n - for interactive testing.\n\n\npytest-html\n - for generating HTML reports.\n\n\ncolorlog\n - for log formatting with colors in console.\n\n\nansi2html\n - Convert text with ANSI color codes to HTML.\n\n\nsphinx\n - for automatic documentation generation.", 
+            "text": "mvtest\n is based on \npytest\n and includes the following standard modules to help perform a full-fledged automated QA on MontaVista Linux distribution.\n\n\n\n\nparamiko\n - for running commands on remote host.\n\n\npexpect\n - for interactive testing.\n\n\npytest-html\n - for generating HTML reports.\n\n\ncolorlog\n - for log formatting with colors in console.\n\n\nansi2html\n - convert text with ANSI color codes to HTML.\n\n\nsphinx\n - for automatic documentation generation.", 
             "title": "mvtest overview"
         }, 
         {
