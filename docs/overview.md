@@ -8,6 +8,6 @@
 
 > [colorlog](https://pypi.python.org/pypi/colorlog) - for log formatting with colors in console.
 
-> [ansi2html](https://pypi.python.org/pypi/ansi2html/) - Convert text with ANSI color codes to HTML.
+> [ansi2html](https://pypi.python.org/pypi/ansi2html/) - convert text with ANSI color codes to HTML.
 
 > [sphinx](https://pypi.python.org/pypi/Sphinx) - for automatic documentation generation.
