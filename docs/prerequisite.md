@@ -14,7 +14,7 @@
     * [RemoteMachine API](https://montavista-opensourcetechnology.github.io/mvtest/_modules/apis/utils.html#RemoteMachine) for running commands on remote host
     * [run_cmd API](https://montavista-opensourcetechnology.github.io/mvtest/_modules/apis/utils.html#run_cmd) for running commands locally
     * [get_status_output API](https://montavista-opensourcetechnology.github.io/mvtest/_modules/apis/utils.html#get_status_output) if command exit status and output is needed.
-4. **custom logging levels**  
+4. **custom logging levels** implemented using [custom_logger](https://montavista-opensourcetechnology.github.io/mvtest/_modules/apis/utils.html)  
     mvtest uses following [custom logging levels](https://docs.python.org/2/howto/logging.html)  
     * _log.command_ for COMMAND logging
     * _log.texitcode_ for EXIT_CODE logging

@@ -36,7 +36,7 @@ mvtest doc setup involved following steps
 * Add test function (**def test_**) in test module (**test_xx.py**) or APIs (**apis/xxx.py**) in [mvtest repo](https://github.com/MontaVista-OpenSourceTechnology/mvtest.git) and ensure it has [python docstrings](https://www.python.org/dev/peps/pep-0257/) as per [rst format](http://thomas-cokelaer.info/tutorials/sphinx/rest_syntax.html)
 * If the test or API module already exits as an **automodule** directive in **test.rst** or **apis.rst** file, then any new test function or API function with docstrings will automatically be included in the documentation.
 
-* If the test or API module is new, then use the [autodoc mechanism](https://github.com/MontaVista-OpenSourceTechnology/mvtest.git) and **automodule directive** to add the module in test.rst or apis.rst file found under **docs/** folder. For example to add the **utils.py** API module, the following automodule directive was used in [apis.rst](https://raw.githubusercontent.com/MontaVista-OpenSourceTechnology/mvtest/master/docs/apis.rst)
+* If the test or API module is new, then use the [autodoc mechanism](http://www.sphinx-doc.org/en/stable/ext/autodoc.html) and **automodule directive** to add the module in test.rst or apis.rst file found under **docs/** folder. For example to add the **utils.py** API module, the following automodule directive was used in [apis.rst](https://raw.githubusercontent.com/MontaVista-OpenSourceTechnology/mvtest/master/docs/apis.rst)
 
 ```python
    utils
