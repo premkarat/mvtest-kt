@@ -7,12 +7,12 @@
         }, 
         {
             "location": "/overview/", 
-            "text": "mvtest\n is based on \npytest\n and includes the following standard modules to help perform a full-fledged automated QA on MontaVista Linux distribution.\n\n\n\n\nparamiko\n - for running commands on remote host.\n\n\npexpect\n - for interactive testing.\n\n\npytest-html\n - for generating HTML reports.\n\n\ncolorlog\n - for log formatting with colors in console.\n\n\nansi2html\n - Convert text with ANSI color codes to HTML.", 
+            "text": "mvtest\n is based on \npytest\n and includes the following standard modules to help perform a full-fledged automated QA on MontaVista Linux distribution.\n\n\n\n\nparamiko\n - for running commands on remote host.\n\n\npexpect\n - for interactive testing.\n\n\npytest-html\n - for generating HTML reports.\n\n\ncolorlog\n - for log formatting with colors in console.\n\n\nansi2html\n - Convert text with ANSI color codes to HTML.\n\n\nsphinx\n - for automatic documentation generation.", 
             "title": "mvtest overview"
         }, 
         {
             "location": "/prerequisite/", 
-            "text": "python\n - top 3 books to learn python (IMHO)\n\n\npython Essential Reference 4ed by David Beazley\n\n\npython cookbook by David Beazley\n\n\nFluent Python by Luciano Ramalho\n\n\n\n\n\n\npytest\n - learning resources\n\n\npytest-doc\n\n\nquick overview\n\n\n3 hours training on pytest\n\n\nAdvance fixtures training\n\n\nvarious other talks\n\n\npython testing with pytest\n\n\n\n\n\n\nmost important mvtest APIs\n\n\nExpectShell API\n for interactive testing\n\n\nRemoteMachine API\n for running commands on remote host\n\n\nrun_cmd API\n for running commands locally\n\n\nget_status_output API\n if command exit status and output is needed.\n\n\n\n\n\n\ncustom logging levels\n\n    mvtest uses following \ncustom logging levels\n  \n\n\nlog.command\n for COMMAND logging\n\n\nlog.texitcode\n for EXIT_CODE logging\n\n\nlog.output\n for OUTPUT logging\n\n\nlog.tpass\n for PASS logging\n\n\nlog.tfail\n for FAIL logging", 
+            "text": "python\n - top 3 books to learn python (IMHO)\n\n\npython Essential Reference 4ed by David Beazley\n\n\npython cookbook by David Beazley\n\n\nFluent Python by Luciano Ramalho\n\n\n\n\n\n\npytest\n - learning resources\n\n\npytest-doc\n\n\nquick overview\n\n\n3 hours training on pytest\n\n\nAdvance fixtures training\n\n\nvarious other talks\n\n\npython testing with pytest\n\n\n\n\n\n\nmost important mvtest APIs\n\n\nExpectShell API\n for interactive testing\n\n\nRemoteMachine API\n for running commands on remote host\n\n\nrun_cmd API\n for running commands locally\n\n\nget_status_output API\n if command exit status and output is needed.\n\n\n\n\n\n\ncustom logging levels\n implemented using \ncustom_logger\n\n    mvtest uses following \ncustom logging levels\n  \n\n\nlog.command\n for COMMAND logging\n\n\nlog.texitcode\n for EXIT_CODE logging\n\n\nlog.output\n for OUTPUT logging\n\n\nlog.tpass\n for PASS logging\n\n\nlog.tfail\n for FAIL logging", 
             "title": "Prerequisite for coding"
         }, 
         {
@@ -42,33 +42,18 @@
         }, 
         {
             "location": "/github/", 
-            "text": "mvtest github deployment", 
+            "text": "Setting up mvtest repo in github\n\n\n\n\nSetup mvtest git\n and \nauthenticate with github from git\n\n\nCreate mvtest repo in github\n  \nwithout\n initializing the repository with a README\n\n\ngit remote add origin \nhttps://github.com/MontaVista-OpenSourceTechnology/mvtest.git\n\n\ngit push -u origin master\n\n\n\n\nSetting up mvtestdocs repo in github\n\n\n\n\nSetup mvtestdocs git\n\n\nCreate mvtestdocs repo\n  \nwithout\n initializing the repository with a README\n\n\ngit remote add origin \nhttps://github.com/MontaVista-OpenSourceTechnology/mvtestdocs.git\n\n\ngit push -u origin master\n\n\n\n\nContributing code to mvtest\n\n\nI have not maintained a repo, so please cross check with github documentation to verify the correct workflow.\n\n\n\n\nUnderstand how fork works and create a fork of mvtest repo\n\n\nCreate a pull request from fork\n\n\nAllow changes to pull request\n\n\nCommit changes to pull request", 
             "title": "mvtest github deployment & workflow"
         }, 
         {
-            "location": "/github/#mvtest-github-deployment", 
-            "text": "", 
-            "title": "mvtest github deployment"
-        }, 
-        {
             "location": "/community/", 
-            "text": "community contributions", 
-            "title": "community contributions"
-        }, 
-        {
-            "location": "/community/#community-contributions", 
-            "text": "", 
+            "text": "Added ANSI support in html report.\n\n  The complete patch and discussion can be tracked in this \npull request", 
             "title": "community contributions"
         }, 
         {
             "location": "/enhancements/", 
-            "text": "mvtest future enhancements/roadmap", 
+            "text": "Currently we use \nparamiko\n for running commands on remote host, a better module would be \nfabric\n\n\nExpectShell API\n could be improved further depending on usage", 
             "title": "mvtest enhancements"
-        }, 
-        {
-            "location": "/enhancements/#mvtest-future-enhancementsroadmap", 
-            "text": "", 
-            "title": "mvtest future enhancements/roadmap"
         }
     ]
 }
