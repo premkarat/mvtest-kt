@@ -1,0 +1,12 @@
+site_name: mvtest KT
+pages:
+  - Home: index.md
+  - Knowledge Transfer:
+    - 'mvtest overview': 'overview.md'
+    - 'Prerequisite for coding': 'prerequisite.md'
+    - 'mvtest directory structure overview': 'directory.md'
+    - 'mvtest documentation generation & distribution': 'doc.md'
+    - 'mvtest github deployment & workflow': 'github.md'
+    - 'community contributions': 'community.md'
+    - 'mvtest enhancements': 'enhancements.md'
+theme: readthedocs
